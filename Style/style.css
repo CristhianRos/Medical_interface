@@ -137,9 +137,11 @@ li .btn {
 }
 .enfermera {
   display: flex;
+  position: absolute;
   justify-content: end;
   align-items: top;
   margin-top: 0%;
+  margin-left: -71%;
   width: auto;
   height: 1100px;
 }
@@ -147,12 +149,12 @@ li .btn {
   width: 458px;
 }
 #texto {
-
-position: relative;
+position: flex;
 height: auto;
 left: -45.5%;
 top: -22%;
 width: 350px;
+justify-content: center;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
