@@ -38,7 +38,7 @@ img {
   background: linear-gradient(
     90deg,
     rgb(0, 0, 0, 0) 51.1%,
-    rgb(230, 241, 255) 50%
+    hsl(204, 79%, 96%) 50%
   );
 }
 .header__links {
@@ -149,10 +149,10 @@ li .btn {
   width: 458px;
 }
 #texto {
-position: flex;
+position: absolute;
 height: auto;
-left: -45.5%;
-top: -22%;
+left: 6%;
+margin-top: 40%;
 width: 350px;
 justify-content: center;
 font-family: 'Roboto';
