@@ -38,16 +38,12 @@ img {
   background: rgb(255, 255, 255);
   background: linear-gradient(
     90deg,
-    rgb(0, 0, 0, 0) 51.1%,
-<<<<<<< HEAD
-    hsl(204, 79%, 96%) 50%
-=======
-    rgb(230,245,252) 50%
->>>>>>> 19e92527e835ba60a1e464f3af08b284a0f247b4
+    rgb(0, 0, 0, 0) 47.32%,
+    rgb(230, 244, 252) 0%
   );
 }
 .header__links {
-  margin-right: 6rem;
+  margin-right: 0.4rem;
 }
 
 .header__links li {
@@ -139,9 +135,9 @@ li .btn {
   justify-content: end;
   align-items: top;
   margin-top: 0%;
-  margin-left: 51%;
+  margin-left: -70%;
   width: auto;
-  height: 1324px;
+  height: 1200px;
 }
 .space{
   width: 458px;
@@ -149,43 +145,52 @@ li .btn {
 #texto {
 position: absolute;
 height: auto;
-<<<<<<< HEAD
 left: 6%;
-margin-top: 40%;
-width: 350px;
-=======
-left: 5%;
-top: 50%;
-width: 590px;
->>>>>>> 19e92527e835ba60a1e464f3af08b284a0f247b4
+margin-top: 50%;
+width: 600px;
 justify-content: center;
 letter-spacing: 1.5px;
 font-weight: 549.9;
-font-size: 25px;
+font-size: 23px;
 
 
 color: #8590A4;
 
 }
-.icons{
+.flexContainer {
+  display:flex;
   position: absolute;
-  top: 65%;
-  left: 5%;
-  width: 590px;
-  height: auto; 
-}
-.icon1{
-  width: 30px;
-  height: auto;
-  background-color: #1f3e72;
-}
-#ico{
-  position: fixed;
-  width: 30px;
-  height: auto;
-  top: 15%;
-  left: auto;
-}
+  align-items:center;
+  left: 6%;
+  margin-top: 35%;
+  font-size: 20px;
+  justify-content: center;
+  letter-spacing: 1.5px;
+  font-weight: 549.9;
+  color: #1f3e72;
   
+}
+
+.sch{
+  display:flex;
+  position: absolute;
+  align-items:center;
+  left: 0%;
+  margin-top: 60%;
+  font-size: 20px;
+  justify-content: center;
+  letter-spacing: 1.5px;
+  font-weight: 549.9;
+  color: #1f3e72;
+  
+}
+.contenedor{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  left: 6px;
+  margin-top: 60%;
+  background-color: rgb(0, 135, 253)
+}
 
 
