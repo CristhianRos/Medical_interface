@@ -135,9 +135,9 @@ li .btn {
   justify-content: end;
   align-items: top;
   margin-top: 0%;
-  margin-left: -70%;
+  margin-left: -72%;
   width: auto;
-  height: 1200px;
+  height: 1045.6px;
 }
 .space{
   width: 458px;
@@ -176,21 +176,99 @@ color: #8590A4;
   position: absolute;
   align-items:center;
   left: 0%;
-  margin-top: 60%;
+  margin-top: 100%;
   font-size: 20px;
   justify-content: center;
   letter-spacing: 1.5px;
   font-weight: 549.9;
   color: #1f3e72;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
+}
+#shield{
+  width: 25px;
+  height: 25px;
+  box-shadow: 58px 71px 100px -8px rgba(30, 63, 151, 0.274);
+  -moz-box-shadow: 80px 70px 150px -8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 15.5px 15px -8px rgba(217, 255, 2, 0.664);
+}
+#star{
+  width: 25px;
+  height: 25px;
+  box-shadow: 58px 71px 100px -8px rgba(30, 63, 151, 0.274);
+  -moz-box-shadow: 80px 70px 150px -8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 15.5px 15px -8px rgba(217, 255, 2, 0.664);
+}
+#clock{
+  width: 25px;
+  height: 25px;
+  box-shadow: 58px 71px 100px -8px rgba(30, 63, 151, 0.274);
+  -moz-box-shadow: 80px 70px 150px -8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 15.5px 15px -8px rgba(3, 86, 241, 0.575);
 }
 .contenedor{
   display: flex;
   position: absolute;
-  align-items: center;
-  left: 6px;
-  margin-top: 60%;
-  background-color: rgb(0, 135, 253)
+  align-items:flex-start;
+  margin-left: 6%;
+  margin-top: 53%;
+  background-color: rgba(255, 255, 255, 0.952);
+  width: 1020px;
+  height: 200px;
+  font-size: 20px;
+
+  box-shadow: 58px 71px 100px -8px white;
+  -moz-box-shadow: 0px 0px *10px -50px white;
+  box-shadow: 0px 16.5px 40px -20px rgba(3, 0, 165, 0.575);
 }
+#son{
+  margin-top: -2%;
+  padding: 5rem;
+  color: #77849a;
+}
+.btn1 {
+  display: flex;
+  background-color: #2b4bc9;
+  border-radius: 3px;
+  height: 50px;
+  width: 100px;
+  align-items: center;
+  margin-bottom: 9%;
+  border: none;
+  color: azure;
+  justify-content: center;
+ margin-top: 4rem;
+}
+.fecha1{
+  display: flex;
+  position: absolute;
+  font-size: 25px;
+  padding-left: 12%;
+  padding-top: 12%;
+  font-weight: bold;
+  color: #1e3d71;
+}
+.fecha2{
+display: flex;
+position: absolute;
+font-size: 25px;
+padding-left: 38%;
+padding-top: 12%;
+font-weight: bold;
+color: #1e3d71;
+}
+.fecha3{
+display: flex;
+position: absolute;
+font-size: 25px;
+padding-left: 61.5%;
+padding-top: 12%;
+font-weight: bold;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #1e3d71;
+}
+
+
+
 
 
