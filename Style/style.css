@@ -267,6 +267,23 @@ font-weight: bold;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color: #1e3d71;
 }
+.carrusel{
+  display: flex;
+  margin-top: 70%;
+  width: 100%;
+  justify-content: center;
+  
+}
+.vacunas{
+  width: 300px;
+  height: auto;
+  padding: 50px;
+  
+}
+
+.reyeno{
+  margin-top: 120%;
+}
 
 
 
